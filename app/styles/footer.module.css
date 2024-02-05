@@ -1,0 +1,107 @@
+.container{
+    background-color: #f1f3f4;
+
+}
+.footer{
+    background-color: #f1f3f4;
+    /* padding: 0px 0.75rem; */
+    margin-top: 72px;
+}
+.footercontainer{
+    width: 100%;
+    max-width: 1425px;
+    margin: 0px auto;
+}
+.footericons{
+    padding: 2rem 0px;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    margin-left: 4.5rem;
+    flex-wrap: wrap;
+}
+.follow{
+          font-weight: 500;  
+        font-size: 1rem;
+        line-height: 1.5rem;
+}
+.ulicons{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.li{
+    margin: 8px 0.5rem;
+    padding: 0.5rem;
+    list-style: none;
+    text-decoration: none;
+
+}
+.icon{
+    display: inline-block;
+    vertical-align: middle;
+    color: #4b4b4b;
+
+}
+.footerheading{
+    padding: 2.5rem 0px;
+    border-color: #e6e6e6;
+    border-top-width: 1px;
+    row-gap: 2rem;
+    display: flex;
+    /* display: grid; */
+    /* grid-template-columns: repeat(5,1fr); */
+justify-content: center;
+    flex-wrap: wrap;
+    gap: 4.5rem;
+}
+
+.h3{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-left: 12px;
+}
+.ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.ul li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;   
+}
+
+
+.footerlogo{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+
+}
+.footerdiv{
+    display: flex;
+    align-items: center;
+}
+.footerul{
+    display: flex;
+}
+.img{
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+.div1{
+    text-align: center;
+}
+
+@media (max-width: 1029px) {
+    /* Your styles for screens less than 1030px width go here */
+  }
